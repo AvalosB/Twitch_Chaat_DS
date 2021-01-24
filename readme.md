@@ -78,3 +78,11 @@
     -When complete enter the command "node index.js" this will use Node.JS to run the program
 
     -As long as the console is up and running the bot will be active
+
+##Discord commands
+
+    -!clearchat this will clear 100 chat messages
+
+    -!clear this one takes a number as an arguement like !clear 5
+
+    -these only work in discord channel
