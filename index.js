@@ -25,7 +25,7 @@ const Twitch_Client = new tmi.client(options)
     Twitch_Client.connect();
 
     Twitch_Client.on('connected', (address, port) => {
-        Twitch_Client.action('SecretSpook', 'Hello TwitchDS Bot is connected')
+        Twitch_Client.action(process.env.TWITCH_CHANNEL, 'Hello TwitchDS Bot is connected')
     })
 
 
