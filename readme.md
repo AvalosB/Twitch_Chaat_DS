@@ -19,23 +19,6 @@
 
     - You are going to want to put the Token in the .env file
 
-##ONCE THE FILES ARE DOWNLOADED ON YOUR MACHINE
-
-    -Make sure files are extracted and on your C drive
-
-    -Open up your cmd (click windows key + R), then type "cmd" and hit run
-
-    -CD to the file where the files are "cd C:\Users\youruser\Documents\Twitch_Chat_DS"
-
-    -in the console type "npm install". this will install all the packages that allow this bot to work
-
-    -When complete enter the command "node index.js" this will use Node.JS to run the program
-
-    -As long as the console is up and running the bot will be active
-
-
-
-
 ##THE .ENV SETUP 
     
     -instructions for creating are below
@@ -81,3 +64,17 @@
     -Right click the text chat and copy ID
 
     -Paste that ID in the .env 
+
+##ONCE THE FILES ARE DOWNLOADED ON YOUR MACHINE & .env is created 
+
+    -Make sure files are extracted and on your C drive
+
+    -Open up your cmd (click windows key + R), then type "cmd" and hit run
+
+    -CD to the file where the files are "cd C:\Users\youruser\Documents\Twitch_Chat_DS"
+
+    -in the console type "npm install". this will install all the packages that allow this bot to work
+
+    -When complete enter the command "node index.js" this will use Node.JS to run the program
+
+    -As long as the console is up and running the bot will be active
