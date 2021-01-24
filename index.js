@@ -16,10 +16,10 @@ const options = {
     },
     identity: {
         username: 'TwichDS',
-        password: 'oauth:fzjfh7jodiipcryxmcufuygn5wvzuw'
+        password: process.env.TMI_PASSWORD
     },
 
-    channels: ['SecretSpook'],
+    channels: [process.env.TWITCH_CHANNEL],
 }
 const Twitch_Client = new tmi.client(options)
     Twitch_Client.connect();
