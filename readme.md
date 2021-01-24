@@ -2,6 +2,7 @@ THIS IS THE TWITCH_CHAT_DS bot;
 
 what you will need:
 
+<<<<<<< HEAD
     -NodeJS installed on your machine (https://nodejs.org/en/download/)
 
     -Discord Dev account (https://discord.com/developers/)
@@ -20,3 +21,11 @@ Discord Dev Account:
     -You are going to want to put the Token in the .env file
 
 
+=======
+    -NodeJS
+    
+    -Discord Dev account
+    
+    -A TMI password (Linked with your twitch)
+    
+>>>>>>> 49e0a4b9428dad7630d894d6be0d34061d27fd12
